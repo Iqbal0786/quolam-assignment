@@ -518,3 +518,107 @@ margin-left: -10px;
       }
 
       /* FEATURES DIV END */
+
+
+      /* <!-- stay in touch div start  --> */
+      #stayTouchDiv{
+         width: 100%;
+         height: 700px;
+         border: 1px solid red;
+      }
+      #stayTouchDiv>#titleDiv{
+         width: 100%;
+         height: 100px;
+         border: 1px solid green;
+         position: relative;
+      }
+      #stayTouchDiv>#titleDiv>h3{
+         border-left: 10px solid gray;
+         position: absolute;
+         top: 30%;
+         left: 10.5%;
+         font-size: 36px;
+line-height: 42px;
+color: #292f36;
+font-weight: 700;
+font-family: "Quattrocento Sans";
+      }
+      #stayTouchDiv>#mapDiv{
+          width: 100%;
+          height: 280px;
+          background-image: url("../images/map.jpg");
+      }
+      #stayTouchDiv>#contactInfoDiv{
+         width: 100%;
+         height: 300px;
+         border: 1px solid rgb(136, 7, 146);
+         position: relative;
+        
+      }
+
+      #stayTouchDiv>#contactInfoDiv>.container{
+         width: 80%;
+         height: 100%;
+         border: 1px solid yellow;
+         position: absolute;
+         left: 10%;
+         display: flex;
+         justify-content: space-between;
+         gap: 20px;
+      }
+      #contactInfoDiv>.container>.boxleft{
+         width: 40%;
+         height: 100%;
+         border:1px solid orange;
+      }
+      #contactInfoDiv>.container>.boxright{
+         width: 40%;
+         height: 100%;
+         border:1px solid orange;
+          margin-top: -100px;
+          background-color: white;
+          padding-left: 15px;
+         
+      }
+      .boxright>#inputFlex{
+         width: 100%;
+         height: 50px;
+         display: flex;
+         justify-content: space-around;
+         margin: 10px;
+      }
+      .boxright>#messageBox{
+         margin-left: 22px;
+         margin-bottom: 10px;
+         
+      }
+      .boxright>#buttonDiv{
+         margin-left: 22px;
+    
+
+      }
+      #buttonDiv>button{
+         width: 147px;
+         height: 40px;
+         border-radius: 3px;
+         background-color: #23b7a4;
+         border: 2px solid #23b7a4;
+                  font-size: 14px;
+         line-height: 28px;
+         color: #ffffff;
+         font-weight: 700;
+         font-family: "Quattrocento Sans";
+      }
+      input{
+         margin-top: 10px;
+         
+      }
+      label{
+         font-size: 14px;
+         line-height: 26px;
+         color: #8d8f92;
+         font-weight: 700;
+         font-family: "Quattrocento Sans";
+         text-align: center;
+      }
+     /* <!-- stay in touch div end  --> */

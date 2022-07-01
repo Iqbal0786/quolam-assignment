@@ -36,7 +36,7 @@ background-color: #1d2026;
  justify-content: space-around;
  align-items: center;
  list-style-type: none;
- margin-top: 2.5%;
+ margin-top: 3.5%;
  
 }
 #rightnav>ul>a{
@@ -46,7 +46,30 @@ background-color: #1d2026;
     color: #a4aead;
     font-weight: 600;
     font-family: "Open Sans";
+    /* border: 1px solid #23b7a4; */
+   width: 90px;
+   height: 30px;
+   text-align: center;
+   
+   
 }
+li{
+   margin-top: -5px;
+}
+
+li:hover{
+   border-radius: 3px;
+   border: 1px solid #23b7a4;
+   color: #23b7a4;
+   width: 90px;
+   height: 39px;
+   text-align: center;
+}
+/* .active{
+   border-radius: 3px;
+   border: 1px solid #23b7a4;
+   color: #23b7a4;
+} */
  /* navbar end */
 
  /* sliderdiv  start */
@@ -110,6 +133,7 @@ border-radius: 3px;
 background-color: rgba(222,180,180,0);
 border: 2px solid #ffffff;
   }
+  
   /* slider  end */
 
    /* WE ARE MODEST DIV  START*/

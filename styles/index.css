@@ -262,6 +262,7 @@ margin-top: 35px;
             /* border: 1px solid green; */
             display: flex;
             justify-content: space-between;
+            gap: 30px;
             padding: 10px;
 
          }
@@ -296,6 +297,7 @@ font-family: "Quattrocento Sans";
          }
      /* <!-- my team div end -- */
 
+
      /* lovely work div */
      #myTeamDiv2{
         width: 100%;
@@ -317,7 +319,7 @@ line-height: 42px;
 color: #ffffff;
 font-weight: 700;
 font-family: "Quattrocento Sans";
-   margin-bottom: 10px;
+   margin-bottom: 30px;
      }
      #myTeamDivchild2>.teamGrid2{
         width: 100%;
@@ -325,19 +327,19 @@ font-family: "Quattrocento Sans";
         /* border: 1px solid green; */
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 10px;
-        padding: 10px;
+        grid-gap: 0px -50px;
+        /* padding: 10px; */
 
      }
      .teamGrid2>.person{
-        width: 250px;
-        height: 120px;
+        width: 350px;
+        height: 250px;
         /* border: 1px solid yellow; */
-        margin-bottom: 220px;
+        margin-bottom: 20px;
      }
      .teamGrid2>.person>img{
         width: 100%;
-        height: 270px;
+        height: 210px;
         object-fit: fill;
      }
      .person2>div{
@@ -359,3 +361,88 @@ color: #292f36;
 font-weight: 700;
 font-family: "Quattrocento Sans";   
      }
+     #myTeamDivchild2>#showmore{
+      width: 147px;
+      height: 40px;
+      border-radius: 3px;
+      background-color: rgba(222,180,180,0);
+      border: 2px solid #ffffff;
+      position: absolute;
+      left: 42%;
+      top: 720px;
+      font-size: 14px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quattrocento Sans";
+     }
+
+
+     /* <!-- what we do div start --> */
+     #whatWeBox{
+      width: 100%;
+      height: 900px;
+      border: 1px solid red;
+     }
+     #whatWeBox>.container{
+      width: 85%;
+     height: 850px;
+     border: 1px solid green;
+      position: absolute;
+    left: 10.5%;
+     }
+     #whatWeBox>.container>.teamTitle3{
+      border-left: 10px solid rgb(147, 146, 146);
+      margin-top: 5%;
+      font-size: 36px;
+      line-height: 42px;
+      color: #292f36;
+      font-weight: 700;
+      font-family: "Quattrocento Sans";
+      margin-bottom: 30px;
+     }
+     .container>.gridContainer{
+      width: 100%;
+      /* height: 100%; */
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 30px;
+     }
+     .gridContainer>div{
+      width: 250px;
+      height: 300px;
+      border: 1px solid yellow;
+      text-align: center;
+      position: relative;
+     }
+     .gridContainer>div>img{
+      position: absolute;
+      top: 30px;
+      left: 40%;
+      width: 50px;
+      height: 50px;
+
+     }
+     .gridContainer>div>h3{
+      position: absolute;
+      top: 30%;
+      left: 12%;
+      font-size: 17px;
+color: #292f36;
+font-weight: 700;
+font-family: "Quattrocento Sans";
+margin-top: 13px;
+
+     }
+     .gridContainer>div>.descreption{
+       width: 100%;
+       position: absolute;
+       top:45%;
+       font-size: 16px;
+line-height: 26px;
+color: #8d8f92;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+     }
+      /* <!-- what we do div end --> */

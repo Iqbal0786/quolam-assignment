@@ -393,7 +393,7 @@ font-family: "Quattrocento Sans";
      /* lovely work div */
      #myTeamDiv2{
         width: 100%;
-        height: 800px;
+        height: 730px;
         background-color: #3a454d;
      }
      #myTeamDiv2>#myTeamDivchild2{
@@ -415,43 +415,49 @@ font-family: "Quattrocento Sans";
      }
      #myTeamDivchild2>.teamGrid2{
         width: 100%;
-        height: 600px;
+        height: 470px;
         /* border: 1px solid green; */
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 0px -50px;
+        /* grid-gap: 0px -50px; */
         /* padding: 10px; */
 
      }
-     .teamGrid2>.person{
+     .teamGrid2>.person2{
         width: 350px;
-        height: 250px;
+        height: 213px;
         /* border: 1px solid yellow; */
-        margin-bottom: 20px;
+        margin-bottom: -10px;
+        position: relative;
      }
-     .teamGrid2>.person>img{
+     .teamGrid2>.person2>img{
         width: 100%;
         height: 210px;
         object-fit: fill;
      }
-     .person2>div{
+     .person2>.imgTitle{
+       width: 100%;
         padding-left: 15px;
-        background-color: #e1e6ea;
+        background-color: #292f36;
         margin-top: -5px;
+        position: absolute;
+        top: 83%;
+        display: none;
      }
-     .person>div>.position{
+     .person2>.imgTitle>.position{
         font-size: 14px;
 line-height: 26px;
 color: #8d8f92;
 font-weight: 400;
 font-family: "Open Sans";
      }
-     .person>div>.title{
-        font-size: 16px;
-line-height: 35px;
-color: #292f36;
-font-weight: 700;
-font-family: "Quattrocento Sans";   
+     .person2>.imgTitle>.title{
+      font-size: 15px;
+      line-height: 42px;
+      color: #ffffff;
+      font-weight: normal;
+      font-family: "Quattrocento Sans"; 
+      padding-left: 10px; 
      }
      #myTeamDivchild2>#showmore{
       width: 147px;
@@ -461,7 +467,7 @@ font-family: "Quattrocento Sans";
       border: 2px solid #ffffff;
       position: absolute;
       left: 42%;
-      top: 720px;
+      top: 640px;
       font-size: 14px;
 line-height: 28px;
 color: #ffffff;
@@ -469,6 +475,27 @@ font-weight: 700;
 font-family: "Quattrocento Sans";
      }
 
+     .teamGrid2>.person2>.fa-plus{
+      position: absolute;
+      top: 30%;
+      left: 49%;
+      color: white;
+       display: none;
+
+     }
+     .teamGrid2>.person2:hover .fa-plus{
+      display: block;
+      cursor: pointer;
+     }
+     .teamGrid2>.person2:hover .imgTitle{
+      display: block;
+    
+     }
+     .teamGrid2>.person2:hover img{
+     opacity: 0.6;
+    
+     }
+     /* ##################### */
 
      /* <!-- what we do div start --> */
      #whatWeBox{

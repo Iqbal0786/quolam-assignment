@@ -109,17 +109,17 @@ font-family: "Open Sans";
 margin-bottom: 20px;
   }
   #buttonDiv>#viewmore{
-    font-size: 14px;
-    line-height: 28px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Quattrocento Sans";
-    width: 120px;
+   font-size: 14px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Quattrocento Sans";
+width: 120px;
 height: 40px;
 border-radius: 3px;
-background-color: #23b7a4;
-border: 2px solid #23b7a4;
-margin-right: 10px;
+background-color: rgba(222,180,180,0);
+border: 2px solid #ffffff;
+cursor: pointer;
   }
   #buttonDiv>#videotour{
     font-size: 14px;
@@ -132,6 +132,17 @@ height: 40px;
 border-radius: 3px;
 background-color: rgba(222,180,180,0);
 border: 2px solid #ffffff;
+cursor: pointer;
+  }
+  #buttonDiv>#videotour:hover{
+   border-radius: 3px;
+background-color: #23b7a4;
+border: 2px solid #23b7a4;
+  }
+  #buttonDiv>#viewmore:hover{
+   border-radius: 3px;
+background-color: #23b7a4;
+border: 2px solid #23b7a4;
   }
   
   /* slider  end */
@@ -512,34 +523,85 @@ text-align: center;
          height: 470px;
          /* border: 1px solid yellow; */
          padding: 0;
+         position: relative;
       }
       .teamGrid3>.person>img{
          width: 100%;
          height: 250px;
          object-fit: fill;
       }
-      .person>div{
+      .person>.aboutBox{
          padding-left: 15px;
-         background-color: #3a454d;
+         background-color: #e1e6ea;
          margin-top: -5px;
          /* border: 1px solid green; */
       }
-      .person>div>.position{
-         font-size: 16px;
-line-height: 26px;
-color: #dcdfe1;
-font-weight: 400;
-font-family: "Open Sans";
+      .person>.aboutBox>.position{
+         font-size: 14px;
+         line-height: 26px;
+         color: #8d8f92;
+         font-weight: 400;
+         font-family: "Open Sans";
 margin-left: -10px;
+margin-top: -12px;
       }
       .person>div>.title{
          font-size: 16px;
-         line-height: 42px;
-         color: #ffffff;
-         font-weight: 400;
-         font-family: "Quattrocento Sans";  
+         line-height: 35px;
+         color: #292f36;
+         font-weight: 700;
+         font-family: "Quattrocento Sans";
 margin-left: -10px;
       }
+ /* .person:hover .aboutBox{
+   background-color: #3a454d;
+ }
+ .person:hover .aboutBox>.title{
+   font-size: 16px;
+line-height: 35px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Quattrocento Sans";
+ }
+ .person:hover .aboutBox>.position{
+   font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 100;
+font-family: "Open Sans";
+ } */
+      .person>.hoverIcons{
+         width:160px;
+         height:50px;
+         position: absolute;
+         top: 52%;
+         left: 30%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         background-color: transparent;
+         gap:2px;
+         /* border: 1px solid blue; */
+         /* display:none ; */
+         border: transparent;
+         
+      }
+      .person>.hoverIcons>button{
+         width: 120px;
+height: 45px;
+background-color: #4e5a62;
+         color: white;
+         font-size: 12px;
+         border:none;
+      }
+      /* .person:hover .hoverIcons{
+         display: block;
+         display: flex;
+        
+      }
+      .person > img:hover  {
+         opacity: 0.6;
+      } */
 
       /* FEATURES DIV END */
 
@@ -613,8 +675,12 @@ font-family: "Quattrocento Sans";
       }
       .boxright>#messageBox{
          margin-left: 22px;
-         margin-bottom: 10px;
+         margin-bottom: 30px;
+         margin-top: 30px;
          
+      }
+      #messageBox>textarea{
+         background-color: #eaeef1;
       }
       .boxright>#buttonDiv{
          margin-left: 22px;
@@ -635,6 +701,11 @@ font-family: "Quattrocento Sans";
       }
       input{
          margin-top: 10px;
+         padding: 10px 10px;
+border-radius: 3px;
+background-color: #eaeef1;
+border: none ;
+
          
       }
       label{
@@ -655,6 +726,7 @@ font-family: "Quattrocento Sans";
 text-align: center;
 margin-top: 30px;
 margin-bottom: 20px;
+margin-left: 5px;
       }
       .boxleft>.desc1{
          font-size: 16px;

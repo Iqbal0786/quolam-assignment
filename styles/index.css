@@ -303,7 +303,7 @@ margin-top: 35px;
          }
          .teamGrid>.person{
             width: 250px;
-            height: 350px;
+            height: 340px;
             /* border: 1px solid yellow; */
             position: relative;
          }
@@ -311,11 +311,16 @@ margin-top: 35px;
             width: 100%;
             height: 270px;
             object-fit: fill;
+            /* border: 1px solid yellow; */
          }
          .person>.aboutBox{
+            width: 100%;
+            height: 80px;
             padding-left: 15px;
             background-color: #e1e6ea;
             margin-top: -5px;
+            /* border: 1px solid yellow; */
+            padding-left: 30px;
          }
          .person>.aboutBox>.position{
             font-size: 14px;
@@ -323,13 +328,16 @@ line-height: 26px;
 color: #8d8f92;
 font-weight: 400;
 font-family: "Open Sans";
+margin-top: -20px;
          }
          .person>.aboutBox>.title{
             font-size: 16px;
 line-height: 35px;
 color: #292f36;
 font-weight: 700;
-font-family: "Quattrocento Sans";   
+font-family: "Quattrocento Sans";  
+margin-top: -15px;
+     
          }
 
          .person>.hoverIcons{

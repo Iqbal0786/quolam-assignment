@@ -708,7 +708,9 @@ font-family: "Quattrocento Sans";
          height: 50px;
          display: flex;
          justify-content: space-around;
-         margin: 10px;
+         margin-top: 10px;
+         margin-right: 10px;
+        
       }
       .boxright>#messageBox{
          margin-left: 22px;
@@ -735,6 +737,7 @@ font-family: "Quattrocento Sans";
          color: #ffffff;
          font-weight: 700;
          font-family: "Quattrocento Sans";
+         cursor: pointer;
       }
       input{
          margin-top: 10px;
